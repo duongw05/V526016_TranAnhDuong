@@ -1,6 +1,6 @@
-package org.example.bai2;
+package org.example.buoi191026.bai1;
 
-public class ChuNhat extends Hinh {
+public class ChuNhat {
     private final double dai;
     private final double rong;
 
@@ -9,17 +9,14 @@ public class ChuNhat extends Hinh {
         this.rong = rong;
     }
 
-    @Override
     public double chuVi() {
         return 2 * (dai + rong);
     }
 
-    @Override
     public double dienTich() {
         return dai * rong;
     }
 
-    @Override
     public String getLoai() {
         return "Chữ Nhật";
     }

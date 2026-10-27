@@ -1,6 +1,6 @@
-package org.example.bai2;
+package org.example.buoi191026.bai1;
 
-public class HinhTron extends Hinh {
+public class HinhTron {
     private final Diem tam;
     private final double banKinh;
 
@@ -13,17 +13,14 @@ public class HinhTron extends Hinh {
         return tam;
     }
 
-    @Override
     public double chuVi() {
         return 2 * Math.PI * banKinh;
     }
 
-    @Override
     public double dienTich() {
         return Math.PI * banKinh * banKinh;
     }
 
-    @Override
     public String getLoai() {
         return "Hình Tròn";
     }

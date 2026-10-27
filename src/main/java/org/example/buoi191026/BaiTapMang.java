@@ -1,4 +1,4 @@
-package org.example;
+package org.example.buoi191026;
 
 import java.util.Arrays;
 import java.util.Scanner;

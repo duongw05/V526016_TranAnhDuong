@@ -1,6 +1,6 @@
-package org.example.bai2;
+package org.example.buoi191026.bai1;
 
-public class TamGiac extends Hinh {
+public class TamGiac {
     private final Diem a;
     private final Diem b;
     private final Diem c;
@@ -15,18 +15,15 @@ public class TamGiac extends Hinh {
         return dienTich() > 1e-9;
     }
 
-    @Override
     public double chuVi() {
         return a.khoangCach(b) + b.khoangCach(c) + c.khoangCach(a);
     }
 
-    @Override
     public double dienTich() {
         return Math.abs((b.getX() - a.getX()) * (c.getY() - a.getY())
                 - (c.getX() - a.getX()) * (b.getY() - a.getY())) / 2;
     }
 
-    @Override
     public String getLoai() {
         return "Tam Giác";
     }

@@ -1,4 +1,4 @@
-package org.example.bai1;
+package org.example.buoi191026.bai2;
 
 public class Diem {
     private final double x;
